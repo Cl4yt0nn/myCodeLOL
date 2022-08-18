@@ -1,0 +1,17 @@
+#box1 {
+    width:500px;
+    height:500px;
+    margin:500px;
+
+    animation-name:BoxAnim;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes BoxAnim {
+    1% {width:500px; height:500px; background-color:yellow;}
+    33% {width:500px; height:500px; background-color:aquamarine;}
+    66% {width:500px; height:500px; background-color:darkorchid;}
+    100% {width:500px; height:500px; background-color:yellow;}
+}
